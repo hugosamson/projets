@@ -10,7 +10,6 @@ format:
     smaller: true
     scrollable: true
     slide-number: true
-footer: HEC Montréal
 ---
 
 ## Idée 1 - Standardisation des données énergétiques
@@ -26,9 +25,7 @@ footer: HEC Montréal
 ### Contexte
 
 
-La gestion des énergies renouvelables présente un défi technologique de taille pour les ingénieurs.<br><br>Effectivement, la gestion de l'énergie dans les réseaux électriques intelligents (ou _smart grids_) ^[Ceux-ci permettent de stocker et de distribuer de façon efficace l'électricité produite par les sources d'énergie renouvelable] nécessite l'agrégation d'une foule de données aux formats hétérogènes et provenant de sources diverses.<br><br>Pour que ces données puissent communiquer, les **standards de données** permettent d'établir "une compréhension commune de la sémantique des données entre producteurs et utilisateurs, afin d'en assurer la qualité et l’interopérabilité." ^[datagouv, 2026]<br><br>Les standards sont garants de l'interopérabilité des données. D'abord, l'**interopérabilité technique** permet aux systèmes informatiques de se connecter et d'échanger de l'information. Puis, l'**interopérabilité sémantique** permet aux systèmes d'échanger des données et de les interpréter correctement, en utilisant des ontologies et des terminologies standardisées.
-
-Malgré l'importance de cette interopérabilité en ce qui concerne la prise de décision opérationnelle par les gestionnaires de réseaux électriques, la littérature scientifique en informatique verte (_green IT_) ne s'est pas encore penchée sur le sujet.
+La gestion des énergies renouvelables présente un défi technologique de taille pour les ingénieurs.<br><br>Effectivement, la gestion de l'énergie dans les réseaux électriques intelligents (ou _smart grids_) ^[Ceux-ci permettent de stocker et de distribuer de façon efficace l'électricité produite par les sources d'énergie renouvelable] nécessite l'agrégation d'une foule de données aux formats hétérogènes et provenant de sources diverses.<br><br>Pour que ces données puissent communiquer, les **standards de données** permettent d'établir "une compréhension commune de la sémantique des données entre producteurs et utilisateurs, afin d'en assurer la qualité et l’interopérabilité." ^[datagouv, 2026]<br><br>Les standards sont garants de l'interopérabilité des données. D'abord, l'**interopérabilité technique** permet aux systèmes informatiques de se connecter et d'échanger de l'information. Puis, l'**interopérabilité sémantique** permet aux systèmes d'échanger des données et de les interpréter correctement, en utilisant des ontologies et des terminologies standardisées.<br><br>Malgré l'importance de cette interopérabilité en ce qui concerne la prise de décision opérationnelle par les gestionnaires de réseaux électriques, la littérature scientifique en informatique verte (_green IT_) ne s'est pas encore penchée sur le sujet.
 
 <br>
 
@@ -41,7 +38,7 @@ Comment concevoir une architecture combinant l'interopérabilité technique et l
 ### Approche méthodologique
 La méthodologie que je propose contient trois phases distinctes :<br><br>
 **Approche théorique** : revue de littérature systématique et analyse comparative des standards existants ;<br><br>
-**Approche empirique** : Entretiens avec des architectes de données<br><br>
+**Approche empirique** : entretiens avec des architectes de données<br><br>
 **Approche par la conception** : développement d'un prototype, d'une ontologie ou d'un cadre architectural appliqué à un cas d'usage précis<br><br>
 
 :::
