@@ -1,0 +1,51 @@
+---
+title: "Mémoire de maîtrise - Sujets"
+author: Hugo Samson
+Date: 2026-12-12
+format: 
+  revealjs:
+    toc: true
+    toc-title: Table des matières
+    toc-depth: 2
+    smaller: true
+    scrollable: true
+    slide-number: true
+footer: HEC Montréal
+---
+
+## Idée 1 - Standardisation des données énergétiques
+
+::: {.panel-tabset}
+
+### Cadre théorique
+- La prise de décision fondée sur les données (_data-driven decision-making_) ;
+- La gouvernance des données ; 
+- Les standards de données ;
+- La création de valeur par les technologies de l'information (TI).
+
+### Contexte
+L'adoption des énergies renouvelables connaît une croissance soutenue à l'échelle mondiale. Bien que prometteuses, ces nouvelles sources d'énergie apportent leur lot de défis technologiques. Effectivement, alors que les infrastructures énergétiques basées sur les énergies fossiles sont largement protégées des effets de saisonalité et des changements de température, les éoliennes et les panneaux solaires y sont particulièrement sensibles. De plus, les réseaux électriques intelligents (ou _smart grids_) doivent réussir à coordoner de l'information en provenance de multiples sources, comme des capteurs (_sensors_) et des ressources énergétiques distribuées (RED), comme des panneaux solaires installés sur le toit des maisons. 
+
+Pour que puissent communiquer ces sources de données hétérogènes, les **standards de données** existent. "D’une manière générale, un standard de données est une exigence qui est destinée à établir une compréhension commune de la sémantique des données entre producteurs et utilisateurs, afin d'en assurer la qualité et l’interopérabilité." ^[datagouv, 2026]
+
+L'impact de la standardisation des données énergétiques sur la prise de décision par les analystes n'a pas encore été étudiée dans la littérature scientifique sur l'informatique verte.
+
+<br>
+
+### Question de recherche
+
+Comment concevoir une architecture combinant interopérabilité technique et sémantique pour soutenir la prise de décision opérationnelle dans la gestion des données énergétiques ?
+
+<br>
+
+### Approche méthodologique
+La méthodologie que je propose contient trois phases distinctes :<br><br>
+**Approche théorique** : revue de littérature systématique et analyse comparative des standards existants ;<br><br>
+**Approche empirique** : Entretiens avec des architectes de données<br><br>
+**Approche par la conception** : développement d'un prototype, d'une ontologie ou d'un cadre architectural appliqué à un cas d'usage précis<br><br>
+
+:::
+
+## Idée 2
+
+
